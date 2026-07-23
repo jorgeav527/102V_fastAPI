@@ -1,0 +1,16 @@
+[project]
+name = "102v-fastapi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["fastapi[standard]>=0.139.2", "sqlmodel>=0.0.39"]
+
+[dependency-groups]
+dev = ["ruff>=0.15.22"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
