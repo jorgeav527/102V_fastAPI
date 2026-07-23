@@ -2,8 +2,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-HOLA = "DFSDFDSF"
-
 
 @app.get("/root")
 def read_root():
